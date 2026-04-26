@@ -8,7 +8,7 @@ if(isset($_POST['hantar'])){
 
 if(mysqli_query($conn, $sql)){
 	header('Location: senarai_pelajar.php');
-	//echo "Rekod berjaya dimasukkan!";
+	//echo "Rekod Berjaya Dimasukkan!";
 	//echo "Nama: $nama<br>";
 	//echo "Kelas: $kelas<br>";
 	//echo '<a href = "borang.php">Kembali ke borang</a>';
